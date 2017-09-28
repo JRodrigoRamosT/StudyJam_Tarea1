@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4d57c4"
+    tools:context="com.example.ramos.studyjam_tarea1.MainActivity">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logofb"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Correo Electronico             "
+        android:textColorHint="#ccc8c8"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="87dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Contraseña                         "
+        android:textColorHint="#ccc8c8"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="87dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar sesion"
+        android:textColor="#f9f5f5"
+        android:background="#5c74e1"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olvidaste tu contraseña?"
+        android:textSize="20sp"
+        android:textColor="#efe8e8"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta de Facebook"
+        android:textSize="20sp"
+        android:textColor="#efe8e8"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
